@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CodeCraftmanclear2.github.io/static/css/main.ff3f392b.css",
+    "main.js": "/CodeCraftmanclear2.github.io/static/js/main.31e48fd9.js",
+    "static/media/profileBW.jpeg": "/CodeCraftmanclear2.github.io/static/media/profileBW.bb620bd63b978691d578.jpeg",
+    "static/media/aboutBW.jpeg": "/CodeCraftmanclear2.github.io/static/media/aboutBW.6634a2bea3c88bbe2f27.jpeg",
+    "static/media/Example-Cv.pdf": "/CodeCraftmanclear2.github.io/static/media/Example-Cv.1352772321268019c15f.pdf",
+    "static/media/project3.webp": "/CodeCraftmanclear2.github.io/static/media/project3.44a19bdd03496c7fd8d9.webp",
+    "static/media/project1.webp": "/CodeCraftmanclear2.github.io/static/media/project1.127e2ebc497c5a6b2505.webp",
+    "static/media/woman1.png": "/CodeCraftmanclear2.github.io/static/media/woman1.bf207e1501b3e3a89339.png",
+    "static/media/woman2.png": "/CodeCraftmanclear2.github.io/static/media/woman2.1badb7321889e9b9ceaf.png",
+    "static/media/man.png": "/CodeCraftmanclear2.github.io/static/media/man.58008a565ab6f0db4d93.png",
+    "static/media/project2.webp": "/CodeCraftmanclear2.github.io/static/media/project2.8b815474dd855ea32107.webp",
+    "index.html": "/CodeCraftmanclear2.github.io/index.html",
+    "main.ff3f392b.css.map": "/CodeCraftmanclear2.github.io/static/css/main.ff3f392b.css.map",
+    "main.31e48fd9.js.map": "/CodeCraftmanclear2.github.io/static/js/main.31e48fd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff3f392b.css",
+    "static/js/main.31e48fd9.js"
+  ]
+}
