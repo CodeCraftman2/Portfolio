@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CodeCraftman2/Portfolio.git/static/css/main.6b3f6cd7.css",
+    "main.js": "/CodeCraftman2/Portfolio.git/static/js/main.3ef482bf.js",
+    "static/media/profileBW.jpeg": "/CodeCraftman2/Portfolio.git/static/media/profileBW.bb620bd63b978691d578.jpeg",
+    "static/media/Example-Cv.pdf": "/CodeCraftman2/Portfolio.git/static/media/Example-Cv.1352772321268019c15f.pdf",
+    "static/media/project3.webp": "/CodeCraftman2/Portfolio.git/static/media/project3.44a19bdd03496c7fd8d9.webp",
+    "static/media/project1.webp": "/CodeCraftman2/Portfolio.git/static/media/project1.127e2ebc497c5a6b2505.webp",
+    "static/media/aboutBW.webp": "/CodeCraftman2/Portfolio.git/static/media/aboutBW.4d5bf53ec21c83f563a5.webp",
+    "static/media/woman1.png": "/CodeCraftman2/Portfolio.git/static/media/woman1.bf207e1501b3e3a89339.png",
+    "static/media/woman2.png": "/CodeCraftman2/Portfolio.git/static/media/woman2.1badb7321889e9b9ceaf.png",
+    "static/media/man.png": "/CodeCraftman2/Portfolio.git/static/media/man.58008a565ab6f0db4d93.png",
+    "static/media/project2.webp": "/CodeCraftman2/Portfolio.git/static/media/project2.8b815474dd855ea32107.webp",
+    "index.html": "/CodeCraftman2/Portfolio.git/index.html",
+    "main.6b3f6cd7.css.map": "/CodeCraftman2/Portfolio.git/static/css/main.6b3f6cd7.css.map",
+    "main.3ef482bf.js.map": "/CodeCraftman2/Portfolio.git/static/js/main.3ef482bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b3f6cd7.css",
+    "static/js/main.3ef482bf.js"
+  ]
+}
