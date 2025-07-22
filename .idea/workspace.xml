@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ead726c-d158-400d-8d79-fa11a4f567c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/SkillsServices.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/SkillsServices.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="5ead726c-d158-400d-8d79-fa11a4f567c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,18 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "CodeCraftman2"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CodeCraftman2&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CodeCraftman2/Portfolio.git",
-    "accountId": "95fa6eaf-1e29-4c85-af40-e747cff69e1e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CodeCraftman2/Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;95fa6eaf-1e29-4c85-af40-e747cff69e1e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -43,7 +40,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Urge_To_Dare/Downloads/Compressed/Portfolio",
+    "last_opened_file_path": "C:/Users/Urge_To_Dare/Downloads/Compressed/Portfolio-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +67,7 @@
       <workItem from="1742625167136" duration="689000" />
       <workItem from="1742625970442" duration="788000" />
       <workItem from="1752902473440" duration="4262000" />
+      <workItem from="1753148510673" duration="304000" />
     </task>
     <servers />
   </component>

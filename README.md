@@ -170,3 +170,71 @@ For Firebase Hosting:
 ## License
 
 This project is licensed under the MIT License.
+
+# Portfolio Project Backend Setup
+
+## Backend Overview
+This project uses a Node.js/Express backend with MongoDB for storing testimonials and EmailJS for email notifications/approvals.
+
+### Backend Dependencies
+- express
+- mongoose
+- cors
+- dotenv
+- axios
+
+### Backend Setup
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Set up environment variables:**
+   Create a `.env` file in the root directory with:
+   ```env
+   MONGODB_URI=your_mongodb_atlas_uri
+   EMAILJS_SERVICE_ID=your_emailjs_service_id
+   EMAILJS_TEMPLATE_ID=your_emailjs_template_id
+   EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+   ADMIN_EMAIL=your_admin_email
+   BASE_URL=https://your-backend-url.com
+   ```
+3. **Start the backend locally:**
+   ```bash
+   npm run server
+   ```
+
+## Heroku Deployment
+
+1. **Install the Heroku CLI:**
+   ```bash
+   npm install -g heroku
+   ```
+2. **Login to Heroku:**
+   ```bash
+   heroku login
+   ```
+3. **Create a Heroku app:**
+   ```bash
+   heroku create your-app-name
+   ```
+4. **Set environment variables on Heroku:**
+   ```bash
+   heroku config:set MONGODB_URI=your_mongodb_atlas_uri
+   heroku config:set EMAILJS_SERVICE_ID=your_emailjs_service_id
+   heroku config:set EMAILJS_TEMPLATE_ID=your_emailjs_template_id
+   heroku config:set EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+   heroku config:set ADMIN_EMAIL=your_admin_email
+   heroku config:set BASE_URL=https://your-backend-url.com
+   ```
+5. **Deploy to Heroku:**
+   ```bash
+   git push heroku master
+   ```
+6. **Open your app:**
+   ```bash
+   heroku open
+   ```
+
+---
+
+For more details, see the [Heroku Node.js documentation](https://devcenter.heroku.com/categories/nodejs).
