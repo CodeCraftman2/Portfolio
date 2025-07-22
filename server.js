@@ -23,6 +23,11 @@ const Testimonial = mongoose.model('Testimonial', testimonialSchema);
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI);
 
+// Friendly root route for Render and other hosts
+app.get('/', (req, res) => {
+  res.send('Welcome! The backend server is running. Use the API endpoints for testimonials and more.');
+});
+
 // Submit testimonial
 app.post('/api/testimonials', async (req, res) => {
   try {
