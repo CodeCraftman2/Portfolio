@@ -238,3 +238,18 @@ This project uses a Node.js/Express backend with MongoDB for storing testimonial
 ---
 
 For more details, see the [Heroku Node.js documentation](https://devcenter.heroku.com/categories/nodejs).
+
+## Backend BASE_URL Environment Variable
+
+The backend uses the `BASE_URL` environment variable to generate absolute approval links for testimonials in emails. This must be set to your deployed backend URL (e.g., `https://new-portfolio-u7rd.onrender.com`) so that approval links work correctly.
+
+### How to Set BASE_URL on Render.com
+1. Go to your backend service on Render.com.
+2. Click the **Environment** tab.
+3. Add or update the variable:
+   ```
+   BASE_URL=https://new-portfolio-u7rd.onrender.com
+   ```
+4. Save changes and redeploy your service.
+
+**This ensures all approval links in emails will point to your live backend and work as expected.**
