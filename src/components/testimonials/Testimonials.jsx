@@ -15,7 +15,7 @@ const Testimonials = () => {
   useEffect(() => {
     const fetchTestimonials = async () => {
       try {
-        const response = await fetch('/api/testimonials');
+        const response = await fetch(`${process.env.REACT_APP_API_URL || ''}/api/testimonials`);
         const data = await response.json();
         setTestimonials(data);
       } catch (error) {

@@ -18,7 +18,7 @@ const Contact = () => {
             content: formData.get('project'),
         };
         try {
-            const response = await fetch('/api/testimonials', {
+            const response = await fetch(`${process.env.REACT_APP_API_URL || ''}/api/testimonials`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)

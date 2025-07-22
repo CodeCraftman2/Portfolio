@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const axios = require('axios'); // Use Axios for HTTP requests
 const cors = require('cors');
 const app = express();
+const cron = require('node-cron');
 
 app.use(express.json());
 app.use(cors());
@@ -136,6 +137,22 @@ app.get('/api/testimonials', async (req, res) => {
     res.json(testimonials);
   } catch (error) {
     res.status(500).json({ error: 'Server error' });
+  }
+});
+
+// Schedule a job to delete pending testimonials older than 1 day
+cron.schedule('0 * * * *', async () => {
+  const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
+  try {
+    const result = await Testimonial.deleteMany({
+      status: 'pending',
+      createdAt: { $lt: oneDayAgo }
+    });
+    if (result.deletedCount > 0) {
+      console.log(`Deleted ${result.deletedCount} old pending testimonials.`);
+    }
+  } catch (err) {
+    console.error('Error deleting old pending testimonials:', err);
   }
 });
 
