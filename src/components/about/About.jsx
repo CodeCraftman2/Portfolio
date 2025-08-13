@@ -16,7 +16,7 @@ const About = () => {
                     <p className="about__description">
                         I am skilled in problem-solving and looking out for collaboration.
                     </p>
-                    <a download="" href={CV} className="button button--flex">
+                    <a download="Yagya_Saini_Resume.pdf" href={CV} className="button button--flex">
                         Download CV
                         <svg
                             class="button__icon"
